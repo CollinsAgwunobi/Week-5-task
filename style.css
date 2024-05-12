@@ -1,0 +1,214 @@
+body{
+    /* height: 100%; */
+    margin: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    
+}
+
+/* ===== SECTION ONE STARTS HERE ===== */
+
+.section-one .top-header{
+    border-bottom: solid 1px rgba(128, 128, 128, 0.308);
+    display: flex;
+    justify-content: space-between;
+    padding:10px ;
+    font-weight: 700;
+    color: gray; 
+}
+
+.top-header img{
+    width: 18px;
+    margin-right: 10px;
+}
+.header span{
+    color: rgb(56, 52, 52);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* ===== HEADER SECTION STARTS HERE======= */
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: solid 2px rgba(128, 128, 128, 0.623);
+    padding-block: 15px;
+    
+}
+.header a:hover{
+    color: rgb(219, 88, 41);
+    transition: all ease-in-out 0.2s;
+}
+.header ul{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: end;
+}
+.header ul li{
+    font-size: 20px;
+    font-weight: 600;
+}
+.header ul li:last-child a{
+    border-radius: 29px;
+    background-color: rgb(24, 21, 21);
+    padding: 8.5px 10px 8.5px 50px;
+    color: azure;
+}
+.fa-calendar{
+    width: 40px;
+    height: 40px;
+    font-size: 20px !important;
+    padding: 10px;
+    z-index: 1;
+    background-color: rgb(219, 88, 41);
+    position: absolute;
+    margin-left: 0.5px;
+}
+.header-section{
+    position: sticky;
+    top: 0;
+    background-color: white;    
+}
+
+/* ============ BANNER SECTION STARTS HERE ================ */
+
+.first-image{
+    background: url(./Assets/images/banner-03.jpg);
+    width: 100%;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    padding: 10px;
+}
+.container{
+    border: solid 1px rgb(88, 87, 87);
+    background-color: rgb(222, 236, 236);
+    color: rgb(43, 38, 38);
+    width: 200px;
+    margin: 200px;
+    margin-bottom: 0;
+    padding: 5px;
+    font-weight: 700;
+}
+.main-text{
+    font-weight: 700;
+    font-size: 60px;
+    color: rgb(225, 245, 245);
+    margin:200px;
+    width: 300px;
+    margin-top: 0;
+}
+span{
+    color:rgb(219, 88, 41);
+}
+.card-one{
+    padding:80px;
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.left{
+    border: ridge 1px rgba(199, 196, 196, 0.61);
+    border-radius: 10px;
+    padding: 10px 20px 10px 30px;
+    width: 28%;
+    box-shadow: rgba(199, 196, 196, 0.61) 0px 0px 3px 2px inset;
+    font-size: 15px;
+}
+span p{
+    font-weight: 900;
+}
+.text{
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.best{
+    color: black;
+    margin: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.one{
+    background-color: rgb(245, 245, 242);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.two{
+    background-color:  rgb(245, 245, 242);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.three{
+    background-color:  rgb(245, 245, 242);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.space, .contract , .Payment{
+    border-bottom: solid 1px  rgba(167, 167, 162, 0.678);
+    /* padding-bottom: 10px; */
+    padding-top: 20px;
+    padding: 10px; 
+}
+.Safety{
+    padding-top: 20px;
+}
+
+/* ============ THIRD SECTION STARTS HERE ================ */
+
+.main-third{
+    display: flex;
+    position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border-radius: 20px;
+  margin-top: -20%;
+}
+/* .fa-play{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.building{
+    background-color: rgba(202, 107, 73, 0.493);
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 200px;
+    margin-left: 100px;
+    box-shadow: rgba(202, 107, 73, 0.493) 0px 0px 2px 1px inset;
+}
+.experience{
+    background-color: rgba(202, 107, 73, 0.493);
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 100px;
+    box-shadow: rgba(202, 107, 73, 0.493) 0px 0px 2px 1px inset;
+}
+.award{
+    background-color: rgba(202, 107, 73, 0.493);
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 100px;
+    box-shadow: rgba(202, 107, 73, 0.493) 0px 0px 2px 1px inset;
+}
+.acheivement{
+    display: flex;
+}
